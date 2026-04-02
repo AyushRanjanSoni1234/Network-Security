@@ -6,5 +6,7 @@ matplotlib
 seaborn
 pymongo
 certifi
-pymongo[srv]==4.
+pymongo[srv]
+pyaml
+dill
 # -e .

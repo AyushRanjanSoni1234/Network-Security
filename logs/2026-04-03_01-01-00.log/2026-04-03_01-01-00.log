@@ -1,0 +1,34 @@
+[2026-04-03 01:01:14,396] 12 root INFO - Starting data ingestion process
+[2026-04-03 01:01:14,396] 23 root INFO - Data Ingestion config: <network_securities.entity.config_entity.DataIngestionConfig object at 0x000001C6CF20ED50>
+[2026-04-03 01:01:14,817] 35 root INFO - Connected to MongoDB database: Network_Securities and collection: Phishing_Data
+[2026-04-03 01:02:18,764] 43 root INFO - Exported collection data as dataframe with shape: (55275, 31)
+[2026-04-03 01:02:19,064] 62 root INFO - Exported data to feature store at path: artifact\2026-04-03_01-01-05\data_ingestion\feature_store\phisingData.csv
+[2026-04-03 01:02:19,076] 78 root INFO - Performed train test split on the dataframe
+[2026-04-03 01:02:19,311] 85 root INFO - Training Data is save at path
+[2026-04-03 01:02:19,359] 90 root INFO - Testing Data is save at path
+[2026-04-03 01:02:19,375] 107 root INFO - Data Ingestion artifact created
+[2026-04-03 01:02:19,376] 17 root INFO - Data ingestion process completed successfully
+[2026-04-03 01:02:19,376] 19 root INFO - Starting data validation process
+[2026-04-03 01:02:19,583] 31 root INFO - Required number of columns: 31
+[2026-04-03 01:02:19,583] 32 root INFO - Dataframe has columns: Index(['having_IP_Address', 'URL_Length', 'Shortining_Service',
+       'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix',
+       'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length',
+       'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor',
+       'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL',
+       'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe',
+       'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
+       'Google_Index', 'Links_pointing_to_page', 'Statistical_report',
+       'Result'],
+      dtype='str')
+[2026-04-03 01:02:19,583] 31 root INFO - Required number of columns: 31
+[2026-04-03 01:02:19,583] 32 root INFO - Dataframe has columns: Index(['having_IP_Address', 'URL_Length', 'Shortining_Service',
+       'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix',
+       'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length',
+       'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor',
+       'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL',
+       'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe',
+       'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
+       'Google_Index', 'Links_pointing_to_page', 'Statistical_report',
+       'Result'],
+      dtype='str')
+[2026-04-03 01:02:20,028] 24 root INFO - Data validation process completed successfully
