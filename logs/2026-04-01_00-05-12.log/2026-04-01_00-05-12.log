@@ -1,6 +1,0 @@
-[2026-04-01 00:05:12,045] 31 root INFO - Converting CSV file at network_data\phisingData.csv to JSON format
-[2026-04-01 00:05:12,320] 35 root INFO - CSV file successfully converted to JSON format
-[2026-04-01 00:05:12,320] 44 root INFO - Connecting to MongoDB at mongodb+srv://ars7408984015_db_user:Ayush12345@cluster0.ebhvmfp.mongodb.net/?appName=Cluster0
-[2026-04-01 00:05:13,052] 46 root INFO - Successfully connected to MongoDB
-[2026-04-01 00:05:13,052] 50 root INFO - Inserting records into MongoDB collection: Phishing_Data
-[2026-04-01 00:05:23,185] 53 root INFO - Records successfully inserted into MongoDB
