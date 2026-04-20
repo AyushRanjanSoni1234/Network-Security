@@ -1,1 +1,1 @@
-A Network Security project for phishing data focuses on detecting and preventing malicious websites, emails, or links that attempt to steal sensitive user information. The system typically analyses features such as URLs, domain age, email headers, and content using machine learning models to classify phishing attempts versus legitimate sources. Such a project helps organizations improve threat detection and protect users from credential theft and fraud.
+
