@@ -1,0 +1,4 @@
+[2026-05-20 19:41:14,995] 13 root INFO - Starting data ingestion process
+[2026-05-20 19:41:14,995] 23 root INFO - Data Ingestion config: <network_securities.entity.config_entity.DataIngestionConfig object at 0x0000025CC54FA890>
+[2026-05-20 19:41:23,651] 47 root ERROR - Error while exporting collection data as dataframe: The DNS query name does not exist: _mongodb._tcp.cluster0.ebhvmfp.mongodb.net.
+[2026-05-20 19:41:23,651] 36 root ERROR - Error occurred while initiating data ingestion: Error occurred in file: D:\Python\Machine Learning\Projects\NetworkSecurity\network_securities\components\data_ingestion.py at line number: 98 with error message: Error occurred in file: D:\Python\Machine Learning\Projects\NetworkSecurity\network_securities\components\data_ingestion.py at line number: 34 with error message: The DNS query name does not exist: _mongodb._tcp.cluster0.ebhvmfp.mongodb.net.

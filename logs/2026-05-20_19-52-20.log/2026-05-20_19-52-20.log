@@ -1,0 +1,45 @@
+[2026-05-20 19:52:22,223] 13 root INFO - Starting data ingestion process
+[2026-05-20 19:52:22,223] 23 root INFO - Data Ingestion config: <network_securities.entity.config_entity.DataIngestionConfig object at 0x000002369E0FEBD0>
+[2026-05-20 19:52:22,519] 35 root INFO - Connected to MongoDB database: Network_Securities and collection: Phishing_Data
+[2026-05-20 19:52:54,982] 43 root INFO - Exported collection data as dataframe with shape: (55275, 31)
+[2026-05-20 19:52:55,463] 62 root INFO - Exported data to feature store at path: artifact\2026-05-20_19-52-20\data_ingestion\feature_store\phisingData.csv
+[2026-05-20 19:52:55,497] 78 root INFO - Performed train test split on the dataframe
+[2026-05-20 19:52:55,875] 85 root INFO - Training Data is save at path
+[2026-05-20 19:52:55,982] 90 root INFO - Testing Data is save at path
+[2026-05-20 19:52:55,984] 107 root INFO - Data Ingestion artifact created
+[2026-05-20 19:52:55,984] 18 root INFO - Data ingestion process completed successfully
+[2026-05-20 19:52:55,984] 20 root INFO - Starting data validation process
+[2026-05-20 19:52:56,315] 31 root INFO - Required number of columns: 31
+[2026-05-20 19:52:56,315] 32 root INFO - Dataframe has columns: Index(['having_IP_Address', 'URL_Length', 'Shortining_Service',
+       'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix',
+       'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length',
+       'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor',
+       'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL',
+       'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe',
+       'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
+       'Google_Index', 'Links_pointing_to_page', 'Statistical_report',
+       'Result'],
+      dtype='str')
+[2026-05-20 19:52:56,315] 31 root INFO - Required number of columns: 31
+[2026-05-20 19:52:56,315] 32 root INFO - Dataframe has columns: Index(['having_IP_Address', 'URL_Length', 'Shortining_Service',
+       'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix',
+       'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length',
+       'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor',
+       'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL',
+       'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe',
+       'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
+       'Google_Index', 'Links_pointing_to_page', 'Statistical_report',
+       'Result'],
+      dtype='str')
+[2026-05-20 19:52:57,097] 25 root INFO - Data validation process completed successfully
+[2026-05-20 19:52:57,097] 27 root INFO - Starting data transformation process
+[2026-05-20 19:52:57,097] 48 root INFO - Initiating data transformation starts now
+[2026-05-20 19:52:57,097] 50 root INFO - Reading training and testing file
+[2026-05-20 19:52:57,452] 56 root INFO - Splitting input and target feature from training and testing dataframe
+[2026-05-20 19:52:57,463] 66 root INFO - Imputing missing values in training and testing dataframe using KNN imputer
+[2026-05-20 19:52:57,463] 37 root INFO - Creating data transformation pipeline with KNN imputer for handling missing values
+[2026-05-20 19:52:57,518] 72 root INFO - Saving transformed training and testing input data to numpy array
+[2026-05-20 19:52:57,533] 78 root INFO - Saving preprocessor object
+[2026-05-20 19:52:57,533] 48 root INFO - Saving object to the file path
+[2026-05-20 19:52:57,549] 53 root INFO - Object saved successfully at artifact\2026-05-20_19-52-20\data_transformation\transformed_object\transformed_object.pkl
+[2026-05-20 19:52:57,567] 32 root INFO - Data transformation process completed successfully

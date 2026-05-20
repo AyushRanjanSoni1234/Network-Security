@@ -1,0 +1,3 @@
+[2026-05-20 19:51:53,765] 11 root INFO - MongoDB client created successfully
+[2026-05-20 19:51:53,765] 15 root INFO - Pinging MongoDB server to confirm connection
+[2026-05-20 19:51:55,255] 17 root INFO - Pinged your deployment. You successfully connected to MongoDB!
